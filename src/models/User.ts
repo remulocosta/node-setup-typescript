@@ -1,4 +1,9 @@
 export class User {
   name: string;
-  email: string;
+  email(): string {
+    //
+    return '';
+  }
+
+  sobrenome: string;
 }
